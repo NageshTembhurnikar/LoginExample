@@ -19,6 +19,8 @@
 		389878B618B474120096BDDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898789E18B474120096BDDA /* UIKit.framework */; };
 		389878BE18B474120096BDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389878BC18B474120096BDDA /* InfoPlist.strings */; };
 		389878C018B474120096BDDA /* LoginExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389878BF18B474120096BDDA /* LoginExampleTests.m */; };
+		389878CA18B474C30096BDDA /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389878C918B474C30096BDDA /* Storyboard.storyboard */; };
+		389878CD18B478C00096BDDA /* LoginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389878CC18B478C00096BDDA /* LoginPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		389878BB18B474120096BDDA /* LoginExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginExampleTests-Info.plist"; sourceTree = "<group>"; };
 		389878BD18B474120096BDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		389878BF18B474120096BDDA /* LoginExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginExampleTests.m; sourceTree = "<group>"; };
+		389878C918B474C30096BDDA /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		389878CB18B478C00096BDDA /* LoginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPageViewController.h; sourceTree = "<group>"; };
+		389878CC18B478C00096BDDA /* LoginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				389878A918B474120096BDDA /* AppDelegate.h */,
 				389878AA18B474120096BDDA /* AppDelegate.m */,
 				389878AC18B474120096BDDA /* Images.xcassets */,
+				389878C918B474C30096BDDA /* Storyboard.storyboard */,
+				389878CB18B478C00096BDDA /* LoginPageViewController.h */,
+				389878CC18B478C00096BDDA /* LoginPageViewController.m */,
 				389878A118B474120096BDDA /* Supporting Files */,
 			);
 			path = LoginExample;
@@ -221,6 +229,7 @@
 			files = (
 				389878A518B474120096BDDA /* InfoPlist.strings in Resources */,
 				389878AD18B474120096BDDA /* Images.xcassets in Resources */,
+				389878CA18B474C30096BDDA /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				389878AB18B474120096BDDA /* AppDelegate.m in Sources */,
 				389878A718B474120096BDDA /* main.m in Sources */,
+				389878CD18B478C00096BDDA /* LoginPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
